@@ -1,12 +1,12 @@
 {
   "name": "nepp-api",
   "version": "1.0.0",
-  "description": "",
-  "main":  "src/server.js",
+  "description": "``` simple-ecommerce-prisma/ ├── prisma/ │   ├── schema.prisma │   └── migrations/ │ ├── src/ │   ├── server.js │   ├── config/ │   │   └── prisma.js        │   ├── routes/ │   │   ├── product.routes.js │   │   └── order.routes.js │   └── controllers/ │       ├── product.controller.js │       └── order.controller.js │ ├── .env └── package.json",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node src/server.js",
-    "dev":"nodemon src/server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "@prisma/client": "^5.22.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "hono": "^4.11.3",
     "prisma": "^5.22.0"
   },
   "devDependencies": {
